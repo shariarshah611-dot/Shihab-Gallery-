@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #111;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('p7.jpg');
     color: #eee;
     font-family: sans-serif;
 }
@@ -42,7 +42,7 @@ body {
 
 /* Photo Cards */
 .photo-card {
-    background: #1e1e1e;
+    background: url(p8.png);
     border: 2px solid #333;
     padding: 10px;
     position: relative;
@@ -85,7 +85,7 @@ body {
 #loader {
     position: fixed;
     inset: 0;
-    background: #000;
+    background: url(p10.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('p1.jpg'); /* ব্যাকগ্রাউন্ড ইমেজ */
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('p9.jpg'); /* ব্যাকগ্রাউন্ড ইমেজ */
     background-size: cover;
     background-position: center;
 }
