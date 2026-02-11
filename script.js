@@ -11,3 +11,17 @@ window.addEventListener('load', () => {
 document.querySelector('.menu-bar').addEventListener('click', () => {
     alert('মেনু ওপেন হচ্ছে...');
 });
+
+// গ্যালারি দেখানোর ফাংশন
+function showGallery() {
+    document.getElementById('home-section').style.display = 'none';
+    document.querySelector('.top-frames').style.display = 'flex';
+    document.querySelector('.main-gallery').style.display = 'grid';
+}
+
+// হোমে ফিরে আসার ফাংশন
+function showHome() {
+    document.getElementById('home-section').style.display = 'flex';
+    document.querySelector('.top-frames').style.display = 'none';
+    document.querySelector('.main-gallery').style.display = 'none';
+}
