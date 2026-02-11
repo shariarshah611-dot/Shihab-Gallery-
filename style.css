@@ -107,3 +107,42 @@ body {
 @media (min-width: 1024px) {
     .main-gallery { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Home Section Styling */
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('p1.jpg'); /* ব্যাকগ্রাউন্ড ইমেজ */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.explore-btn {
+    padding: 12px 30px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background: white;
+    color: black;
+}
+
+/* শুরুতে গ্যালারি এবং টপ ফ্রেম লুকিয়ে রাখার জন্য */
+.top-frames, .main-gallery {
+    display: none;
+}
